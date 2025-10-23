@@ -1,0 +1,14 @@
+C:\GitHub\csharptestare\bin\Debug\net9.0\csharptestare.exe
+C:\GitHub\csharptestare\bin\Debug\net9.0\csharptestare.deps.json
+C:\GitHub\csharptestare\bin\Debug\net9.0\csharptestare.runtimeconfig.json
+C:\GitHub\csharptestare\bin\Debug\net9.0\csharptestare.dll
+C:\GitHub\csharptestare\bin\Debug\net9.0\csharptestare.pdb
+C:\GitHub\csharptestare\obj\Debug\net9.0\csharptestare.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\csharptestare\obj\Debug\net9.0\csharptestare.AssemblyInfoInputs.cache
+C:\GitHub\csharptestare\obj\Debug\net9.0\csharptestare.AssemblyInfo.cs
+C:\GitHub\csharptestare\obj\Debug\net9.0\csharptestare.csproj.CoreCompileInputs.cache
+C:\GitHub\csharptestare\obj\Debug\net9.0\csharptestare.dll
+C:\GitHub\csharptestare\obj\Debug\net9.0\refint\csharptestare.dll
+C:\GitHub\csharptestare\obj\Debug\net9.0\csharptestare.pdb
+C:\GitHub\csharptestare\obj\Debug\net9.0\csharptestare.genruntimeconfig.cache
+C:\GitHub\csharptestare\obj\Debug\net9.0\ref\csharptestare.dll
