@@ -12,3 +12,4 @@ C:\GitHub\csharptestare\obj\Debug\net9.0\refint\csharptestare.dll
 C:\GitHub\csharptestare\obj\Debug\net9.0\csharptestare.pdb
 C:\GitHub\csharptestare\obj\Debug\net9.0\csharptestare.genruntimeconfig.cache
 C:\GitHub\csharptestare\obj\Debug\net9.0\ref\csharptestare.dll
+C:\GitHub\csharptestare\obj\Debug\net9.0\csharptestare.sourcelink.json
