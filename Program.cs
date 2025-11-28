@@ -1,8 +1,11 @@
 ﻿
 using csharptestare;
 
+
 Fordon f = new Fordon();
 String promt;
+
+
 void tillverkare()
 {
     Console.Write("Ange fordonets tillverkare:");
@@ -38,24 +41,31 @@ do
 {
    Console.Write("skriv promt (exit för att avsluta): ");
     promt = Console.ReadLine();
-    if (promt == "ändra info")
+    if (promt == "edit info" || promt == "Edit info")
     {
+        Console.WriteLine("test");
         tillverkare();
         modell();
         årsmodell();
         regnummer();
         färg();
     }
-    if (promt == "visa info")
+    if (promt == "show info" || promt == "Show info")
     {
-        Console.WriteLine("Fordonets tillverkare: " + f.GetTillverkare());
-        Console.WriteLine("Fordonets modell: " + f.GetModell());
-        Console.WriteLine("Fordonets årsmodell: " + f.GetÅrsmodell());
-        Console.WriteLine("Fordonets registreringsnummer: " + f.GetRegnummer());
-        Console.WriteLine("Fordonets färg: " + f.GetFärg());
+        Console.WriteLine("Fordonets tillverkare: " + f.GetTillverkare() + "\n");
+        Console.WriteLine("Fordonets modell: " + f.GetModell() + "\n");
+        Console.WriteLine("Fordonets årsmodell: " + f.GetÅrsmodell() + "\n");
+        Console.WriteLine("Fordonets registreringsnummer: " + f.GetRegnummer() + "\n");
+        Console.WriteLine("Fordonets färg: " + f.GetFärg() + "\n");
+    }
+    
+    if (promt == "Help" || promt == "help")
+    {
+        Console.WriteLine("Commands:\nedit info - edit vehicle information\nshow info - show vehicle information\nexit - exit the program\nhelp - show this help message\n");
     }
 
-} while (promt != "exit");
+    
+} while (promt != "exit" && promt != "Exit");
 
 
 
