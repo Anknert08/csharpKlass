@@ -13,45 +13,34 @@ namespace csharptestare
         private string regnummer;
         private string färg;
 
-        public void SetTillverkare(string tillverkare)
+        public string Tillverkare
         {
-            this.tillverkare = tillverkare;
+            set { tillverkare = value; }
+            get { return tillverkare; }
         }
-        public string GetTillverkare()
+     
+        public string Modell
         {
-            return tillverkare;
+            set { modell = value; }
+            get { return modell; }
         }
-        public void SetModell(string modell)
+        
+        public int Årsmodell
         {
-            this.modell = modell;
+            set { årsmodell = value; }
+            get { return årsmodell; }
         }
-        public string GetModell()
+        
+        public string Regnummer
         {
-            return modell;
+            set { regnummer = value; }
+            get { return regnummer; }
         }
-        public void SetÅrsmodell(int årsmodell)
+       
+        public string Färg
         {
-            this.årsmodell = årsmodell;
-        }
-        public int GetÅrsmodell()
-        {
-            return årsmodell;
-        }
-        public void SetRegnummer(string regnummer)
-        {
-            this.regnummer = regnummer;
-        }
-        public string GetRegnummer()
-        {
-            return regnummer;
-        }
-        public void SetFärg(string färg)
-        {
-            this.färg = färg;
-        }
-        public string GetFärg()
-        {
-            return färg;
+            set { färg = value; }
+            get { return färg; }
         }
     }
 }

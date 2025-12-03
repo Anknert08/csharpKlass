@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("csharptestare")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8004d7154d7c49c06b55c0eb0516c4a6fa1edf33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd02e8f3ea6f1de1bf8065556d4df48e8fd072dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("csharptestare")]
 [assembly: System.Reflection.AssemblyTitleAttribute("csharptestare")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
