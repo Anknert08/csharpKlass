@@ -43,7 +43,6 @@ do
     promt = Console.ReadLine();
     if (promt == "edit info" || promt == "Edit info")
     {
-        Console.WriteLine("test");
         tillverkare();
         modell();
         årsmodell();
